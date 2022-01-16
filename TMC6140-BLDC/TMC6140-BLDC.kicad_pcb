@@ -1,0 +1,108 @@
+(kicad_pcb (version 20211014) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (svguseinch false)
+      (svgprecision 6)
+      (excludeedgelayer true)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+
+  (net 0 "")
+
+  (gr_circle (center 104.14 75.4245) (end 105.64 75.4245) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 10109f84-4940-47f8-8640-91f185ac9bc1))
+  (gr_line (start 107.14 75.4245) (end 107.14 41.1) (layer "Edge.Cuts") (width 0.2) (tstamp 3f5fe6b7-98fc-4d3e-9567-f9f7202d1455))
+  (gr_circle (center 104.14 41.1) (end 105.64 41.1) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 55e740a3-0735-4744-896e-2bf5437093b9))
+  (gr_arc (start 107.14 75.4245) (mid 106.26132 77.54582) (end 104.14 78.4245) (layer "Edge.Cuts") (width 0.2) (tstamp 5cbb5968-dbb5-4b84-864a-ead1cacf75b9))
+  (gr_arc (start 66.6836 41.1) (mid 67.56228 38.97868) (end 69.6836 38.1) (layer "Edge.Cuts") (width 0.2) (tstamp 6a955fc7-39d9-4c75-9a69-676ca8c0b9b2))
+  (gr_circle (center 69.6836 75.4245) (end 71.1836 75.4245) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 71c31975-2c45-4d18-a25a-18e07a55d11e))
+  (gr_circle (center 69.6836 41.1) (end 71.1836 41.1) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 746ba970-8279-4e7b-aed3-f28687777c21))
+  (gr_line (start 69.6836 78.4245) (end 104.14 78.4245) (layer "Edge.Cuts") (width 0.2) (tstamp afb8e687-4a13-41a1-b8c0-89a749e897fe))
+  (gr_arc (start 104.14 38.1) (mid 106.26132 38.97868) (end 107.14 41.1) (layer "Edge.Cuts") (width 0.2) (tstamp bb7f0588-d4d8-44bf-9ebf-3c533fe4d6ae))
+  (gr_arc (start 69.6836 78.4245) (mid 67.56228 77.54582) (end 66.6836 75.4245) (layer "Edge.Cuts") (width 0.2) (tstamp e10b5627-3247-4c86-b9f6-ef474ca11543))
+  (gr_line (start 66.6836 41.1) (end 66.6836 75.4245) (layer "Edge.Cuts") (width 0.2) (tstamp e8314017-7be6-4011-9179-37449a29b311))
+  (gr_line (start 104.14 38.1) (end 69.6836 38.1) (layer "Edge.Cuts") (width 0.2) (tstamp f1830a1b-f0cc-47ae-a2c9-679c82032f14))
+
+  (group "" (id f4f99e3d-7269-4f6a-a759-16ad2a258779)
+    (members
+      10109f84-4940-47f8-8640-91f185ac9bc1
+      3f5fe6b7-98fc-4d3e-9567-f9f7202d1455
+      55e740a3-0735-4744-896e-2bf5437093b9
+      5cbb5968-dbb5-4b84-864a-ead1cacf75b9
+      6a955fc7-39d9-4c75-9a69-676ca8c0b9b2
+      71c31975-2c45-4d18-a25a-18e07a55d11e
+      746ba970-8279-4e7b-aed3-f28687777c21
+      afb8e687-4a13-41a1-b8c0-89a749e897fe
+      bb7f0588-d4d8-44bf-9ebf-3c533fe4d6ae
+      e10b5627-3247-4c86-b9f6-ef474ca11543
+      e8314017-7be6-4011-9179-37449a29b311
+      f1830a1b-f0cc-47ae-a2c9-679c82032f14
+    )
+  )
+)
